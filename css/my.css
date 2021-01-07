@@ -146,6 +146,7 @@ ul li a:hover {
 	margin-top: 50px;
 }
 .header {
+	background-color: #b7feff;
 	position: relative;
 }
 .bg-header {
@@ -424,8 +425,21 @@ ul li a:hover {
 	padding: 30px 3px;
 	color: #eee;
 }
+.i-menu {
+	display: none;
+}
+.toggle-menu {
+	display: inline-block;
+}
 /* -----------------------s3 end-------------------- */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
+	.h-titel h2 {
+		font-size: 25px;
+	}
+	.h-titel p {
+		font-size: 16px;
+		line-height: 30px;
+	}
 	.s2.price .row {
 		padding: 0 40px;
 	}
@@ -438,7 +452,7 @@ ul li a:hover {
 	}
 	.nav-logo .s-logo {
 		height: 50px;
-		margin-top: 35px;
+		margin-top: 23px;
 		padding-left: 5px;
 		display: block;
 	}
@@ -458,5 +472,11 @@ ul li a:hover {
 	}
 	.h-titel {
 		margin-top: 19px;
+	}
+	.i-menu {
+		display: inline-block;
+	}
+	.nav-menu ul li.toggle-menu {
+		display: none;
 	}
 }
