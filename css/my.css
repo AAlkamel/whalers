@@ -5,7 +5,7 @@
  */
 
 * {
-	font-family: 'Almarai', sans-serif, Flaticon, themify;
+	font-family: 'Almarai', sans-serif, Flaticon, themify, fontawesome;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -598,8 +598,92 @@ a:hover {
 	padding: 0;
 	padding-right: 7px;
 }
+.stuck {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
 /* ------------------------------login end-------------- */
-/* -----------------------s3 end-------------------- */
+/* ------------------------------price staet-------------- */
+.light-1 {
+	background-color: hsl(192 38% 94% / 1);
+}
+.pr {
+	padding-top: 162px;
+	direction: rtl;
+	background-color: #edf5f7;
+	padding: 180px 0 50px;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 1px; /* padding: 15px;
+	padding-top: 20px; */
+	text-align: center;
+}
+.grid-container.head {
+	background-color: #ddedf1;
+	border-radius: 10px 10px 0 0;
+}
+.grid-i {
+	border-left: solid 1px #fff; /* height: 100%; */
+	padding: 10px;
+	padding-top: 13px;
+}
+.grid-i:last-child {
+	border-left: none; /* height: 100%; */
+}
+.color1 {
+	color: #2d98da;
+}
+.color2 {
+	color: #fa8231;
+}
+.color3 {
+	color: #8854d0;
+}
+.color4 {
+	color: #707070;
+}
+.pr h4 {
+	font-weight: 600;
+	font-size: 18px;
+}
+.pr .tit {
+	padding: 4px;
+	padding-top: 10px;
+	background-color: #ddedf1;
+	border-bottom: solid 1px #fff;
+	border-top: solid 1px #fff;
+}
+.pr .tit h4 {
+	text-align: center;
+}
+.fa-check-circle {
+	color: #8fd049;
+}
+.pr > .container:last-child .grid-container:last-child {
+	border-bottom: solid 1px #fff;
+}
+/* ------------------------------price end-------------- */
+/* ------------------------------feat start-------------- */
+.s2.feat {
+	padding-top: 90px;
+	background-color: rgb(237 245 247);
+}
+.s2.feat h3 {
+	color: #0a82bb;
+}
+.s2.feat .cal span {
+	color: #8f9192;
+}
+.s2.feat .cal p {
+	color: #8f9192;
+}
+.s2.feat .cal h4 {
+	color: #707070;
+}
+/* ------------------------------feat end-------------- */
 @media only screen and (max-width: 991px) {
 	.form > div {
 		text-align: center;
@@ -661,5 +745,19 @@ a:hover {
 	}
 	.form h3.hello {
 		font-size: 15px;
+	}
+	.pr h4 {
+		font-weight: 400;
+		font-size: 14px;
+	}
+	.pr h5 {
+		font-size: 14px;
+	}
+	.pr h6 {
+		font-size: 13px;
+	}
+	.grid-i {
+		padding: 3px;
+		padding-top: 12px;
 	}
 }
